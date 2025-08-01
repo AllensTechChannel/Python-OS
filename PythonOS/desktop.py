@@ -62,7 +62,7 @@ def main():
         if action == "updates":
             clear()
             print("Opening Updates...\n")
-            print("Python OS 3 Updates")
+            print("Python OS 4 Updates")
             print("\nUpdates:")
             print("1. Added BIOS")
             print("2. Added Credits.md")
@@ -139,3 +139,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
