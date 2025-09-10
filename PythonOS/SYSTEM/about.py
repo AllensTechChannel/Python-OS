@@ -33,7 +33,7 @@ ttk.Label(root, text="Copyright: All programs are property of their respective o
 try:
     with open("owner.txt", "r", encoding="utf-8") as text_file:
         content = text_file.read().strip()
-    ttk.Label(root, text=f"Owner: {content}", font=info_font, wraplength=400,
+    ttk.Label(root, text=f"This product is regestered to: {content}", font=info_font, wraplength=400,
               justify="center").pack(pady=5)
 except FileNotFoundError:
     ttk.Label(root, text="Owner: (owner.txt not found)", font=info_font,
@@ -44,3 +44,4 @@ bottom_button = tk.Button(root, text="OK", command=root.destroy)
 bottom_button.pack(side=tk.BOTTOM, anchor=tk.SE, padx=10, pady=10)
 
 root.mainloop()
+
