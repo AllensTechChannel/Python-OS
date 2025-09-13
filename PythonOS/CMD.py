@@ -1,7 +1,7 @@
 import os
 import winsound
 def python_cmd():
-    print("Python OS [4.12] (c) The Python Software Foundation. All rights reserved.")
+    print("Python OS [4.14] (c) The Python Software Foundation. All rights reserved.")
     print("Type 'help' for a list of commands. Type 'exit' to quit.\n")
 
 # Base directory where this script lives
@@ -88,3 +88,4 @@ if __name__ == "__main__":
     clear_screen()
     play_sound('error-beep.wav')
    
+
