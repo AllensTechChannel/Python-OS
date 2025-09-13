@@ -74,13 +74,11 @@ def main():
         if action == "updates":
             clear()
             print("Opening Updates...\n")
-            print("Python OS 4.13 Updates")
+            print("Python OS 4.14 Updates")
             print("\nUpdates:")
-            print("1. Added a Paint Program (PyPaint)")
-            print("2. Added an About Box")
-            print("3. Added a SYSTEM folder for future projects")
-            print("4. Added a new logon sound")
-
+            print("1.  Added custom password and username")
+            print("2. Added settings to change username, password, and company name.")
+            
             print("\nBUGS:")
             print("1. The logon screen can get messed up sometimes")
             print("2. The ball in Pong can go through the paddle")
@@ -185,3 +183,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
