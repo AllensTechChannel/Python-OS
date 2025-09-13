@@ -148,7 +148,7 @@ users = {
 def display_login_screen_with_clock(login_data):
     clear_screen()
     print("==== Python OS Logon Screen ====")
-    print("Default Username: user name
+    print("Default Username: user name")
     print("Default Passowrd: defaultpassword")      
 
     if "lockout_time" in login_data:
@@ -207,3 +207,4 @@ while True:
             login_data["lockout_time"] = time.time() + LOCKOUT_SECONDS
             attempts = 0
         time.sleep(2)
+
