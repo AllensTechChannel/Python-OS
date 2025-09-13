@@ -1,0 +1,13 @@
+.LOG
+
+1. Added a file explorer (FilePilot)
+2. Added a alarm clock
+3.Added a timer
+4 Added a new logon sound
+1:13 PM 8/17/2025
+
+1. Added custom password and username
+2. Added settings to change username, password, and company name. 
+
+11:24 PM 9/12/2025
+
