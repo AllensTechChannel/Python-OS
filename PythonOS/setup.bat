@@ -1,21 +1,30 @@
 @echo off
+title Python Environment Setup
+echo ====================================================
+echo Installing required Python packages...
+echo ====================================================
+echo.
 
-start "" python-install.bat
+:: Upgrade pip first
+py -m pip install --upgrade pip
 
-
-pause
-
-py -m  pip install Pillow 
-py -m  pip install ttkbootstrap 
-py -m  pip install screen-brightness-control 
-py -m  pip install keyboard 
-py -m  pip install psutil 
-
-py -m  pip install Webview
-C:\Users\%username%\AppData\Local\Programs\Python\Python313\python.exe -m pip install --upgrade pip
-
+:: Core packages
+py -m pip install Pillow
+py -m pip install ttkbootstrap
+py -m pip install screen-brightness-control
+py -m pip install keyboard
+py -m pip install psutil
+py -m pip install pywebview
 py -m pip install playsound==1.2.2
-cls
-boot.py
+
+echo.
+echo ====================================================
+echo All packages installed successfully!
+echo Launching boot.py...
+echo ====================================================
+echo.
+
+:: Run your Python program
+py boot.py
 
 pause
