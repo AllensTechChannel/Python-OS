@@ -1,1 +1,4 @@
-Main is empty. All releces of Python os are in separate branches.
+Sep 19, 2025
+  Hello Dear PythonOS user,
+This is my last major release of PythonOS, of course i will still update PythonOS if bugs are found. 
+  Best, AllensTechChannel
